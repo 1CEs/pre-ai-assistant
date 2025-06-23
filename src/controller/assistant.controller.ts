@@ -1,4 +1,6 @@
-class AssistantController {
+import { AnswerValidatorPrompt } from "../utils/prompt";
+
+export class AssistantController {
     constructor() { }
 
     async useAssistant(body: QuestionValidatorPayload): Promise<ReturnResponse> {
